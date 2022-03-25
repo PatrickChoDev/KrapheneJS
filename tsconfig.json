@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "alwaysStrict": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "target": "ESNext",
+    "outDir": "./dist",
+    "allowJs": true,
+    "baseUrl": "./",
+    "declaration": true,
+    "rootDir": "./src",
+    "types": ["node"],
+    "declarationDir": "./types",
+    "checkJs": false
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
